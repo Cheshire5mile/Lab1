@@ -7,4 +7,4 @@
 - [Циклы(For обратный)](iterations2.html)
 - [Циклы While](iterationsWhile.html)
 - [Функции](function.html)
-
+- [Вычисление НОД](GCD.html)
