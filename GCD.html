@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+       <tytle>Лабораторная работа 2</tytle>
+
+       
+    </head>
+    <body>
+        
+        <h1>Функции</h1>
+        
+        <script>
+
+            
+            
+            function gcd(k1, k2)
+            {let k3;
+                if (k1 > k2){
+                    while ((k3 = k1 % k2) != 0){
+                    k1 = k2;
+                    k2 = k3;
+                    }
+                    return k2;
+                }
+                else {
+                    while ((k3 = k2 % k1) != 0)
+                    {
+                    k2 = k1;
+                    k1 = k3;
+                    }
+                    return k1;
+                }
+
+            }
+            let x = gcd(1071,462);
+            console.log(x);
+        </script>
+            
+
+
+    </body>
+</html>
