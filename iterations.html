@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+       <tytle>Лабораторная работа 2</tytle>
+
+    </head>
+    <body>
+        
+        <h1>Циклы</h1>
+        
+        <script>
+           let rows = parseFloat (prompt ('Введите количество строк в таблице: ', ' ') );
+           let cols = parseFloat (prompt ('Введите количество столбцов в таблице: ', ' ') );
+            document.write('<table border=1>');
+             for (let i = 1; i <= rows; i++) {
+                document.write('<tr>');
+                    for (let j = 1; j <= cols; j++) {
+                         if (i == 1 || j == 1 )
+                        document.write('<td style=background:red>');
+                        else
+                        document.write('<td>');
+                            
+                        document.write(i*j); 
+                       
+                        document.write('</td>');
+                    }
+
+                document.write('</tr>');
+            }
+            
+             document.write('</table>');
+            
+        </script>
+            
+
+
+    </body>
+</html>
