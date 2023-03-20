@@ -9,3 +9,4 @@
 - [Функции](function.html)
 - [Вычисление НОД](GCD.html)
 - [Объекты-ссылки](ObjectSimple.html)
+- [Ссылки JSON](ObjectJSONLink.html)
