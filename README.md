@@ -8,3 +8,4 @@
 - [Циклы While](iterationsWhile.html)
 - [Функции](function.html)
 - [Вычисление НОД](GCD.html)
+- [Объекты-ссылки](ObjectSimple.html)

@@ -1,0 +1,35 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<h1>Объекты 1</h1>
+		<h2 >
+            <script>
+                "use strict";
+                function showLink()
+                {
+                   document.write('<a href=' + this.url + '>' + this.title + '</a>'+ '<br>');
+                }
+
+
+                let Link1 = {};
+                Link1.title = 'Yandex';
+                Link1.url = 'https://dzen.ru';
+                Link1.show = showLink;
+
+                let Link2 = {};
+                Link2.title = 'Специалист';
+                Link2.url = 'https://www.specialist.ru/';
+                Link2.show = showLink;
+
+                Link1.show();
+                Link2.show();
+
+		    </script>
+		</h2>
+
+
+	</body>
+
+</html>
