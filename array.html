@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+       <tytle>Array</tytle>
+
+    </head>
+    <body>
+        
+        <h1>JavaScript</h1>
+        
+        <script>
+        var userName;
+        var names = [];
+       do{
+            userName = prompt ('Введите имя: ','');
+           if (userName)
+            names.push(userName);
+            else 
+            break;
+        }
+        while (userName);
+       
+        console.log(userName);
+        names.sort();
+        
+
+        for (let i in names)
+        {
+        document.write(names[i]);
+        document.write('<br>');
+        }
+           
+           
+        </script>
+        
+
+    </body>
+</html>
