@@ -13,3 +13,4 @@
 - [Массив "имена"](array.html)
 - [Массив JSON](ObjectJSONLink2.html)
 - [Constructor](ObjectJConstructor.html)
+- [Constructor`s Prototype](ObjectJProto.html)

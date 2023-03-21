@@ -1,0 +1,40 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<h1>Constructor`s prototype</h1>
+		<h2 >
+            <script>
+                "use strict";
+
+                function Link(title, url){
+                    this.title = title;
+                    this.url = url;
+                    /*this.print = function (NewWindow) {
+                        if (NewWindow)
+                        document.write(`<a href="${this.url}" target=_blank>${this.title}</a><br>`);
+                        else
+                        document.write(`<a href="${this.url}">${this.title}</a><br>`);
+                    }*/
+                }
+                Link.prototype.print = function (NewWindow){
+                        if (NewWindow)
+                        document.write(`<a href="${this.url}" target=_blank>${this.title}</a><br>`);
+                        else
+                        document.write(`<a href="${this.url}">${this.title}</a><br>`);}
+                var l1 = new Link('Yandex', 'https://dzen.ru');
+                var l2 = new Link('Специалист', 'https://www.specialist.ru/',)
+
+                l1.print(true);
+                l2.print();
+
+                console.log(l1);
+                console.log(l2);
+		    </script>
+		</h2>
+
+
+	</body>
+
+</html>
