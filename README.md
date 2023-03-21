@@ -12,3 +12,4 @@
 - [Ссылки JSON](ObjectJSONLink.html)
 - [Массив "имена"](array.html)
 - [Массив JSON](ObjectJSONLink2.html)
+- [Constructor](ObjectJConstructor.html)
